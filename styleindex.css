@@ -3,6 +3,7 @@
         padding: 0;
         height: 250vh;
         width: 100vw;
+        overflow-x: hidden;
     }
 
     .background{
