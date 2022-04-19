@@ -1,0 +1,220 @@
+    body {
+        margin: 0;
+        padding: 0;
+        height: 250vh;
+        width: 100vw;
+    }
+
+    .background{
+        background-image:linear-gradient(#d4d4bf -995%, #b6b69b 1%);
+    }
+    /*nav*/
+
+    .logo {
+        font-size: 24px;
+        text-transform:uppercase;
+        letter-spacing: 4px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background: #23232e;
+        height: 8vh;
+    }
+
+    .nav-list {
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-list li {
+        letter-spacing: 3px;
+        margin-left: 35px;
+    }
+
+    /*h's*/
+
+    h1{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 55px;
+        position: relative;
+        top: 50px;
+    }
+
+    h2{
+        color: #23232e;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: 200px;
+    }
+
+    h3{
+        color: #23232e;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 35px;
+        position: relative;
+        top: 250px;
+    }
+
+    h4{
+        color: #23232e;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: 350px;
+    }
+
+    /*Slides*/
+
+    .content {
+        height: 650px;
+        width: 80%;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        top: 200px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .navegation {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+    }
+
+    .bar {
+        width: 70px;
+        height: 17px;
+        border: 2px solid #fff;
+        margin: 6px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .55s;
+    }
+
+    .bar:hover {
+        background-color: #fff;
+    }
+
+    input { 
+        display: none;
+    }
+
+    .slides {
+        display: flex;
+        width: 400%;
+        height: 100%;
+    }
+
+    .slide {
+        width: 25%;
+        transition: .6s;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #slide1:checked ~ .s1 {
+        margin-left: 0;
+    }
+
+    #slide2:checked ~ .s1 {
+        margin-left: -25%;
+    }
+
+    #slide3:checked ~ .s1 {
+        margin-left: -50%;
+    }
+
+    #slide4:checked ~ .s1 {
+        margin-left: -75%;
+    }
+
+    /*conteudo*/
+
+    .flex img {
+        width: 100%;
+        height: 235px;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 935px;
+        margin: 0 auto;
+        position: relative;
+        top: 350px;
+    }
+
+    .flex > div {
+        flex: 1 1 400px;
+        margin: 10px 10px 70px 10px; 
+    }
+
+    p {
+        text-align: center;
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+     /*tabela*/
+
+     table{
+
+        height: 200px;
+        width: 600px;
+        overflow: hidden;
+        position: relative;
+        top: 250px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    td { 
+        padding: 50px;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 25px;
+        position: relative;
+    }
+
+    th {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 35px;
+        position: relative;
+        border: 1px solid black;
+    }
+
+    /*links*/
+
+    a {
+        color:#fff;
+        text-decoration: none;
+        transition: .3s;
+    }
+
+    a:hover {
+        opacity: .7;
+    }
